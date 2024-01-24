@@ -39,7 +39,10 @@ public class Author {
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
-
+/*
+Method to get Set of books
+returns Set<>books
+ */
     public Set<Book> getBooks() {
         return books;
     }
